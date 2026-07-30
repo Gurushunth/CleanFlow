@@ -1,0 +1,14 @@
+{
+  "gov_official": {
+    "password": "scada2026",
+    "name": "Hon. Government Official",
+    "department": "Tamil Nadu Water Supply & Drainage Board",
+    "role": "Chief SCADA Inspector"
+  },
+  "Guru": {
+    "password": "0809",
+    "name": "Official (Guru)",
+    "department": "SCADA Division",
+    "role": "Government Operator"
+  }
+}
