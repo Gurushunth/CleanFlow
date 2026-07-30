@@ -1256,9 +1256,9 @@ elif selected_tab == "🗺️ EPANET Topology & Node Inspector":
                 height=420,
                 margin=dict(l=10, r=10, t=10, b=10),
                 scene=dict(
-                    xaxis=dict(title="Trunk Distance (m)", backgroundcolor="#f8fafc", gridcolor="rgba(15, 23, 42, 0.1)"),
-                    yaxis=dict(title="Lateral Shift (m)", backgroundcolor="#f8fafc", gridcolor="rgba(15, 23, 42, 0.1)"),
-                    zaxis=dict(title="Elevation / Head (m)", backgroundcolor="#f8fafc", gridcolor="rgba(15, 23, 42, 0.1)"),
+                    xaxis=dict(title="Trunk Distance (m)", backgroundcolor="#f0f4f8", gridcolor="rgba(15, 23, 42, 0.25)", showgrid=True, gridwidth=1, showline=True, linecolor="rgba(15, 23, 42, 0.3)", linewidth=1, zeroline=True, zerolinecolor="rgba(15, 23, 42, 0.2)"),
+                    yaxis=dict(title="Lateral Shift (m)", backgroundcolor="#f0f4f8", gridcolor="rgba(15, 23, 42, 0.25)", showgrid=True, gridwidth=1, showline=True, linecolor="rgba(15, 23, 42, 0.3)", linewidth=1, zeroline=True, zerolinecolor="rgba(15, 23, 42, 0.2)"),
+                    zaxis=dict(title="Elevation / Head (m)", backgroundcolor="#f0f4f8", gridcolor="rgba(15, 23, 42, 0.25)", showgrid=True, gridwidth=1, showline=True, linecolor="rgba(15, 23, 42, 0.3)", linewidth=1, zeroline=True, zerolinecolor="rgba(15, 23, 42, 0.2)"),
                     camera=dict(eye=dict(x=1.5, y=-1.5, z=0.9))
                 )
             )
